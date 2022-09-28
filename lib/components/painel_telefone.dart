@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/components/generico/botao_telfone.dart';
-
-
 import 'botao_sms.dart';
 
 class PainelTelefone extends StatelessWidget {
@@ -21,7 +19,7 @@ class PainelTelefone extends StatelessWidget {
           BotaoTelefone(funcao: funcaoTelefone),
           BotaoSms(
             funcao: funcaoSms,
-          )
+          ),
         ],
       ),
     );

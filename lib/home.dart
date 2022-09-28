@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/components/cartao_email.dart';
 import 'package:flutter_application_1/components/cartao_nome.dart';
 import 'components/cartao_telefone.dart';
 import 'components/meu_avatar.dart';
@@ -16,6 +17,7 @@ class Home extends StatelessWidget {
           MeuAvatar(),
           CartaoNome(),
           CartaoTelefone(),
+          CartaoEmail()
         ],
       ),
     );
